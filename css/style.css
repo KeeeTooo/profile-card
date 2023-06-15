@@ -1,0 +1,146 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+*{ 
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family:Kumbh Sans;
+ }
+
+
+body{  width: 100%;
+       height: 100%;
+       background-repeat:no-repeat;
+       background-color: hsl(185, 75%, 39%);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height:100vh;
+       position: absolute;
+}
+
+.a{    position: absolute;
+       background-image:url(../images/bg-pattern-top.svg);
+       background-repeat: no-repeat;
+       margin-top: -80%;
+       margin-left: -40%;
+       width: 100%;
+       height: 100%;
+       transform: scaleX(-1);
+       rotate: 110deg;
+}
+ 
+.b{    position: absolute;
+       background-image:url(../images/bg-pattern-top.svg);
+       background-repeat: no-repeat;
+       margin-top:30%;
+       margin-left:45%;
+       transform: scaleX(-1);
+       width: 80%;
+       height: 60%;
+}
+       
+
+main{  position: absolute;
+       width: 310px;
+       height: 350px;
+       border-radius: 10px;
+       background-color:white;
+}
+
+.cover>img{
+       position:absolute;
+       width: 100%;
+       height: 40%;
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+       background-image:url(..images/bg-pattern-card.svg);
+       
+}
+.victor{display: flex;
+        justify-content: center;
+}
+        
+
+.victor>img{position: absolute;
+            margin-top: 95px;
+            border: 5px;
+            border-style: solid;
+            border-color: white;
+            width: 90px;
+            height: 90px;
+            border-radius:50%;
+            background-image:url(..images/image-victor.jpg) ;
+}
+
+.nameage{ position:absolute;
+          display: flex;
+          justify-content: center;
+          width: 125px;
+          height: 50px;
+          font-size: 18px;
+          margin-top: 190px;
+          font-weight: 700;
+          color: hsl(229, 23%, 23%)}
+
+
+.age,.city{
+       color: hsl(0, 0%, 59%);
+      
+}
+
+
+.city{position: absolute;
+      margin-top:38px;
+      font-size: small;
+      display: flex;
+      justify-content: center;
+}
+
+hr{
+       border: 0;
+       height: 0;
+       border-top: 0.1px solid hsl(188, 17%, 91%);
+       position:absolute;
+       width: 300px;
+       margin-top:75px;   
+}
+
+
+
+.statistic{display: flex;
+           justify-content:space-around;
+           align-items: center;
+           height: 100vh;
+           height: 9px;
+           width: 200px;
+           margin-top: 95%;
+}
+
+
+
+.k{       
+          margin-left: 10px;
+          position: absolute;
+          word-spacing: 45px;
+          font-family:Kumbh Sans;
+          font-size: large;
+          font-weight: 700;
+          display: flex;
+          justify-content:center;
+          margin-top: 1%;
+}
+
+.values {
+        position:absolute;
+        color: hsl(0, 0%, 59%);
+        font-family:Kumbh Sans;
+        font-size:10px;
+        justify-content: space-between;
+        letter-spacing: 1px;
+        word-spacing: 50px;
+        margin-top: 15%;         
+}
+
